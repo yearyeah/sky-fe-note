@@ -20,3 +20,16 @@ yarn config set registry https://registry.npm.taobao.org
 
 yarn add node-sass@4.14.1 --dev --registry=https://registry.npm.taobao.org
 yarn add jst-components --registry=http://npm.jushuitan-inc.com:4873
+
+## npm 缩写对应表
+
+| 全写            | 缩写 | 说明                                                               |
+| --------------- | ---- | ------------------------------------------------------------------ |
+| install         | i    | 安装                                                               |
+| --save          | S    | 表示安装的包将写入 package.json 里面的 dependencies                |
+| --save-dev      | -D   | 开发环境的依赖，就是我们在开发过程中需要的包，只在开发阶段起作用的 |
+| --save-prod     | -P   | 生产环境的依赖，也就是项目运行时的包，程序上线后仍然需要依赖       |
+| --global        | -g   | 全局标识，可以在任意目录中使用该工具。全局安装                     |
+| --save-optional | -O   | 表示将安装的包将写入 packege.json 里面的 optionalDependencies      |
+| --save-bundle   | -B   | 表示将安装的包将写入 packege.json 里面的 bundleDependencies        |
+| --save-exact    | -E   | 表示安装的包的版本是精确指定的                                     |
